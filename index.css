@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    margin: auto;
+}
+div.container{
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+div.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+div.container .post-header img{
+    display: inline-flex;
+    width: auto;
+    height: auto;
+
+}
+div.container .post-header .fa-html5{
+    font-size: 30px;
+    margin-left: auto;
+}
+.h1{
+    display: flex;
+
+}
+#html5{
+    font-size: 10px;
+    align-items: center;
+    margin: 0;
+}
+.html-logo h1, .html-logo p{
+    margin: 5px;
+}
+
+i{
+    margin: 8px;
+    width: 10px;
+    height: 10px;
+}
+div.container .post-header p{
+    display: flex;
+    flex-direction: column;
+}
+div.post-img img{
+    width: 100%;
+    height: auto;
+}
+div.post-img{
+    width: 100%;
+    height: auto;
+}
+div.post-icons i:last-child {
+    float: right;
+}
